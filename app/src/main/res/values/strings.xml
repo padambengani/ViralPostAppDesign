@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ViralPostApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login_username">Username or Personal Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_forgot_password">Forgot Password ?</string>
+    <string name="register_username">Username</string>
+    <string name="register_password">Password</string>
+    <string name="register_personal_email">Personal Email</string>
+    <string name="register_insti_email">Institutional Email</string>
+    <string name="register_insti_email_hint">E.g. p.bengani@iitg.ernet.in</string>
+    <string name="register_personal_email_hint">E.g. p.bengani@gmail.com</string>
+    <string name="register_button">Register</string>
+    <string name="entry_login_button">Login</string>
+    <string name="entry_signup_button">Sign Up</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+</resources>

@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.viralpost.viralpostapp.fragments.LoginFragment"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_padding"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_username"
+        android:id="@+id/textView"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_password"
+        android:id="@+id/textView2"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:textAppearance="@android:style/TextAppearance.Medium" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_button"
+            android:id="@+id/button"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_forgot_password"
+            android:id="@+id/textView3"
+            android:clickable="true"
+            android:textAppearance="@android:style/TextAppearance.Small" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
